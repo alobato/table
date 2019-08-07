@@ -1,6 +1,6 @@
 {
   "name": "@alobato/table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Table react component",
   "main": "index.js",
   "repository": "github:alobato/table",

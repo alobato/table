@@ -11,6 +11,8 @@ yarn add @alobato/table
 ## Usage
 
 ```js
+import { Table, TableContainer, TableRow, TableCell, TableHeaderRow, TableHeaderCell } from '@alobato/table'
+
 <TableContainer>
   <Table>
     <TableHeaderRow>
