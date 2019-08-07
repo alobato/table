@@ -1,0 +1,34 @@
+{
+  "name": "@alobato/table",
+  "version": "1.0.0",
+  "description": "Table react component",
+  "main": "index.js",
+  "repository": "github:alobato/table",
+  "author": "alobato",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "table"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.0.20"
+  },
+  "bugs": {
+    "url": "https://github.com/alobato/table/issues"
+  },
+  "homepage": "https://github.com/alobato/table#readme"
+}
