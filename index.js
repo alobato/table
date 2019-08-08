@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro'
+import styled from 'styled-components'
 import { width, height, lineHeight } from 'styled-system'
 
 export const TableContainer = styled.div`
