@@ -1,6 +1,6 @@
 {
   "name": "@alobato/table",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "description": "Table react component",
   "main": "index.js",
   "repository": "github:alobato/table",
@@ -17,15 +17,15 @@
     "index.js"
   ],
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.13.0"
   },
   "devDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "styled-components": "^4.3.2",
-    "styled-system": "^5.0.20"
+    "styled-components": "^5.0.1",
+    "styled-system": "^5.1.5"
   },
   "bugs": {
     "url": "https://github.com/alobato/table/issues"
