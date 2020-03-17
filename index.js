@@ -4,7 +4,7 @@ import { width, height, lineHeight } from 'styled-system'
 export const TableContainer = styled.div`
   border: none;
   @media (min-width: 768px) {
-    border: 1px solid ${props => props.theme.colors.grey200};
+    border: 1px solid ${props => props.theme && props.theme.colors && props.theme.colors.grey200};
   }
 `
 
@@ -20,26 +20,17 @@ export const Table = styled.div`
   }
 `
 
-export const TableHeader = styled.div`
-  display: block;
-  @media (min-width: 768px) {
-    font-weight: 600;
-    color: inherit;
-    background-color: ${props => props.theme.colors.primary};
-  }
-`
-
 export const TableRow = styled.div`
   display: block;
-  border-bottom: 1px solid ${props => props.theme.colors.grey200};
+  border-bottom: 1px solid ${props => props.theme && props.theme.colors && props.theme.colors.grey200};
   padding-top: 16px;
   @media (min-width: 768px) {
     padding-top: 0;
     display: table-row;
     border-bottom: none;
-    box-shadow: inset 0 -1px 0 0 ${props => props.theme.colors.grey200};
+    box-shadow: inset 0 -1px 0 0 ${props => props.theme && props.theme.colors && props.theme.colors.grey200};
     &:hover {
-      background-color: ${props => props.theme.colors.grey100};
+      background-color: ${props => props.theme && props.theme.colors && props.theme.colors.grey100};
     }
   }
 `
@@ -49,7 +40,7 @@ export const TableHeaderRow = styled(TableRow)`
   @media (min-width: 768px) {
     font-weight: 500;
     color: inherit;
-    background-color: ${props => props.theme.colors.grey100};
+    background-color: ${props => props.theme && props.theme.colors && props.theme.colors.grey100};
   }
 `
 
@@ -66,7 +57,7 @@ export const TableCell = styled.div`
       line-height: 1;
       font-weight: bold;
       text-transform: uppercase;
-      color: ${props => props.theme.colors.grey400};
+      color: ${props => props.theme && props.theme.colors && props.theme.colors.grey400};
       display: block;
     }
   }
